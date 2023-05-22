@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * emailt Bootstrap - Freelancer Bootstrap Theme (http://emailtbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -36,8 +36,8 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.email-light,
+hr.email-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -47,9 +47,9 @@ hr.star-primary {
     overflow: visible;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
+hr.email-light:after,
+hr.email-primary:after {
+    content: "\f0e0";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -58,22 +58,103 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
-hr.star-light {
+hr.email-light {
     border-color: #fff;
 }
 
-hr.star-light:after {
+hr.email-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
 
-hr.star-primary {
+hr.email-primary {
     border-color: #{{ site.color.secondary }};
 }
 
-hr.star-primary:after {
+hr.email-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
+}
+
+hr.discord-light,
+hr.discord-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.discord-light:after,
+hr.discord-primary:after {
+    content: "\f392";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.discord-light {
+    border-color: #fff;
+}
+
+hr.discord-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.discord-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.discord-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+
+hr.vial-light,
+hr.vial-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.vial-light:after,
+hr.vial-primary:after {
+    content: "\f0c3";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.vial-light {
+    border-color: black;
+}
+
+hr.vial-light:after {
+    color: black;
+    background-color: black;
+}
+
+hr.vial-primary {
+    border-color: black;
+}
+
+hr.vial-primary:after {
+    color: black;
+    background-color: #{{ site.color.primary}};
 }
 
 .img-centered {
@@ -111,8 +192,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 250px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .name {
