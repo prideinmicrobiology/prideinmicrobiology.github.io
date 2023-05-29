@@ -51,7 +51,8 @@ address:
   - line: Dr. Bruno Francesco Rodrigues de Oliveira, PhD
 
 # Credits content
-credits: 'This website is based on the Freelancer theme, a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+credits: 'The Pride in Microbiology logo was designed by Karina Gisèle Mac Si Hone. This website is based on the Freelancer theme, a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
