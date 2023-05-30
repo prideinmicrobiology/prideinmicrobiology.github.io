@@ -1,3 +1,5 @@
+This site is built on the Freelancer Jekyll Theme. Information on how to use the theme and where to find more information on it can be found below:
+
 Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
 =========================
 
