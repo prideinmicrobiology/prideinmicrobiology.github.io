@@ -1,7 +1,7 @@
 # Site settings
 title: Pride In Microbiology
 email: prideinmicrobiology@gmail.com
-url: https://prideinmicrobiology.github.io
+url: https://landongetz.github.io/SecretPIM
 description: ""
 keywords: ""
 skills: "Professional Development - Mentorship - Community"
@@ -35,7 +35,7 @@ footer:
   copyright: Pride in Microbiology
   location: Co-Founders of the Network
   social: Around the Web
-  credits: Website Ackonwledgements
+  credits: Website Acknowledgements
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -61,7 +61,7 @@ permalink: pretty
 #for posts
 defaults:
   - scope:
-      path: ""
+      path: "/profiles"
       type: "posts"
     values:
       permalink: ""
